@@ -1,6 +1,6 @@
 # financeiro
 
-This template should help get you started developing with Vue 3 in Vite.
+Este projeto têm como principarl objetivo de fornecer uma interface simples para o usuario acompanhar seus ganhos e gastos ao longo do ano, ele é focado no front-end utilizando Vuejs e Tailwind.
 
 ## Recommended IDE Setup
 
