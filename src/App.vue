@@ -15,6 +15,12 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <script setup>
 import sidebar from './componentes/sidebar.vue';
+
+export default{
+  components: {
+    Sidebar
+  }
+}
 </script>
 
   <header>
