@@ -1,11 +1,24 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+
 </script>
 
 <template>
+
+<div class="flex">
+
+<sidebar />
+<main class="flex-1 p-4">
+  <RouterView></RouterView>
+</main>
+</div>
+
+<script setup>
+import sidebar from './componentes/sidebar.vue';
+</script>
+
   <header>
-    
+
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
@@ -82,4 +95,5 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 }
+
 </style>
